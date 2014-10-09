@@ -1,19 +1,30 @@
 /* Your Website Styles */
 body {
-	background: url("../img/bg.png") #475AC2;
+	background: url("../img/bg.png") gray;
 }
 h1 {
 	
 	font-family: 'Indie Flower', cursive;
-	color: #A357C7;
+	color: black;
 	font-style: italic;
-	background: red;
+	background: gray;
 	padding: 10px;
 	border: 10px black double;
 	width: 300px;
 	margin: 10px;
 }
+h3{
+	color:red;
+}
+#leadin{
+	color: white;
+	background: teal;
+}
 
+.subhead{
+	font-style:italic;
+	margin-left: 30px;
+}
 p {
 	line-height: 36px;
 }
