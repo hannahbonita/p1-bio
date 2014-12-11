@@ -1,32 +1,48 @@
 /* Your Website Styles */
 body {
-	background: url("../img/bg.png") gray;
+	background: url("../img/symphony.png") gray;
 }
 h1 {
 	
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Poiret One', sans-serif;
 	color: black;
-	font-style: italic;
-	background: gray;
 	padding: 10px;
-	border: 10px black double;
+	border: 10px white double;
 	width: 300px;
 	margin: 10px;
+	text-align: center;
 }
 h3{
-	color:red;
+	font-family: 'Poiret One', sans-serif;
+	color: #445233;
+
 }
 #leadin{
 	color: white;
-	background: teal;
+	background: #A2C27A;
 }
 
 .subhead{
 	font-style:italic;
 	margin-left: 30px;
 }
-p {
+p, li {
+	font-family: 'Poiret One', sans-serif;
 	line-height: 36px;
+}
+
+li, a {
+	text-decoration: none;
+	color: #F12E1A;
+}
+
+a:hover {
+	font-weight: bold;
+	color: #445233;
+}
+
+a:visited {
+	color: #445233;
 }
 /* Show Grid */
 .showgrid {
